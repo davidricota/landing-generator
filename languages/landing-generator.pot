@@ -1,0 +1,117 @@
+# Copyright (C) 2025 Deiv
+# This file is distributed under the same license as the Landing Generator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Landing Generator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/landing-generator\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-12T22:36:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: landing-generator\n"
+
+#. Plugin Name of the plugin
+#: landing-generator.php
+msgid "Landing Generator"
+msgstr ""
+
+#. Description of the plugin
+#: landing-generator.php
+msgid "A simple plugin to generate landing pages with ACF fields."
+msgstr ""
+
+#. Author of the plugin
+#: landing-generator.php
+msgid "Deiv"
+msgstr ""
+
+#: dist/landing-generator/src/Api/LandingController.php:22
+#: src/Api/LandingController.php:22
+msgid "Landing not found."
+msgstr ""
+
+#: dist/landing-generator/src/PostTypes/Landing.php:9
+#: src/PostTypes/Landing.php:9
+msgid "Landings"
+msgstr ""
+
+#: dist/landing-generator/src/PostTypes/Landing.php:10
+#: src/PostTypes/Landing.php:10
+msgid "Landing"
+msgstr ""
+
+#: dist/landing-generator/src/PostTypes/Landing.php:11
+#: src/PostTypes/Landing.php:11
+msgid "Agregar nueva"
+msgstr ""
+
+#: dist/landing-generator/src/PostTypes/Landing.php:12
+#: src/PostTypes/Landing.php:12
+msgid "Editar Landing"
+msgstr ""
+
+#: src/ACF/fields.php:7
+msgid "Landing Sections"
+msgstr ""
+
+#: src/ACF/fields.php:11
+msgid "About"
+msgstr ""
+
+#: src/ACF/fields.php:15
+#: src/ACF/fields.php:26
+#: src/ACF/fields.php:46
+msgid "Title"
+msgstr ""
+
+#: src/ACF/fields.php:16
+msgid "Content"
+msgstr ""
+
+#: src/ACF/fields.php:17
+msgid "Image"
+msgstr ""
+
+#: src/ACF/fields.php:22
+msgid "Services"
+msgstr ""
+
+#: src/ACF/fields.php:27
+msgid "Description"
+msgstr ""
+
+#: src/ACF/fields.php:32
+msgid "Clients"
+msgstr ""
+
+#: src/ACF/fields.php:36
+msgid "Name"
+msgstr ""
+
+#: src/ACF/fields.php:37
+msgid "Logo"
+msgstr ""
+
+#: src/ACF/fields.php:42
+msgid "Call to Action"
+msgstr ""
+
+#: src/ACF/fields.php:47
+msgid "Link"
+msgstr ""
+
+#: src/ACF/fields.php:52
+msgid "Contact Us"
+msgstr ""
+
+#: src/ACF/fields.php:56
+msgid "Email"
+msgstr ""
+
+#: src/ACF/fields.php:57
+msgid "Phone"
+msgstr ""

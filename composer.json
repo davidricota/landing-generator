@@ -1,0 +1,32 @@
+{
+  "name": "landing/generator",
+  "version": "1.0.0",
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "squizlabs/php_codesniffer": "^3.13",
+    "phpunit/phpunit": "^9.6",
+    "wp-cli/wp-cli": "^2.10",
+    "wp-cli/i18n-command": "^2.2",
+    "wp-coding-standards/wpcs": "^3.1"
+  },
+  "scripts": {
+    "lint": "phpcs --standard=phpcs.xml src",
+    "fix": "phpcbf --standard=phpcs.xml src",
+    "test": "phpunit --testdox",
+    "build": "bash scripts/build.sh",
+    "make-pot": "wp i18n make-pot . languages/landing-generator.pot --slug=landing-generator"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "autoload": {
+    "psr-4": {
+      "Landing\\Generator\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
